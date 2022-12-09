@@ -12,15 +12,39 @@ header {
   background-color: #1F2937;
   display: flex;
   flex-direction: column;
+  padding-bottom: 80px;
 }
 
 .nav {
   display: flex;  
   justify-content: space-between;
+  padding: 16px;
+  padding-bottom: 48px;
+}
+
+.below-nav {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.bnav-text {
+  max-width: 400px;
+}
+
+.best {
+  font-size: 48px;
+}
+
+.img-1 {
+  width: 400px;
+  height: 200px;
 }
 
 a {
   text-decoration: none;  
+  color: white;
 }
 
 ul {
@@ -34,10 +58,102 @@ ul {
 .sec-1 {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.main-title {
+  font-size: 36px;
+  margin-bottom: 16px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .main-1 {
   display: flex;
   justify-content: space-between;
+  padding-left: 300px;
+  padding-right: 300px;
+  flex-wrap: wrap;
+}
+
+.imgs {
+  width: 200px;
+  height: 250px;
+  border-radius: 16px;
+  border: 6px solid black;
+}
+
+.text {
+  width: 200px;
+}
+
+.sec-2 {
+  display: flex;
+  flex-direction: column;
+  background-color: #e5e7eb;
+  font-size: 36px;
+  font-style: italic;
+  align-items: center;
+  justify-content: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.text-2 {
+  max-width:900px;
+  margin: 0;
+}
+
+.sig {
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  font-size: 20px;
+  font-weight: 900;
+  justify-content: flex-end;
+}
+
+.sec-3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3882f6;
+  margin: 100px auto;
+  border-radius: 8px;
+  max-width: 800px;
+  width: 100%;
+  color: white;
+  padding: 64px;
+}
+
+.left-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.top-text {
+  font-size: 24px;
+  font-weight: 900;
+}
+
+button {
+  width: 120px;
+  height: 35px;
+  border-radius: 8px;
+  background-color: #3882f6;
+  color: white;
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.button-2 {
+  border: solid white 2px;
+}
+
+footer {
+  text-align: center;
+  background-color: #1F2937;
+  color: white;
+  padding: 32px;
 }
